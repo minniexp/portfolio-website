@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col row-start-2 items-center sm:items-start">
 
         {/* Section 1 */}
-        <div className="px-4 md:px-20 py-10 md:pb-28 border-b border-b-black">
+        <div className="px-4 md:px-20 py-10 md:py-36 border-b border-b-black bg-[#F4F4F3]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* Header and Paragraph Section */}
             <div className="flex flex-col text-center md:text-left space-y-4">
