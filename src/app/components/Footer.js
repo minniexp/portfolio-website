@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -8,6 +8,14 @@ export default function Footer() {
         Michelle
       </h3>
       <div className="flex gap-2">
+      <a
+          className="w-10 h-10 flex justify-center items-center"
+          href="mailto:minyyang35@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+          >
+          <FontAwesomeIcon icon={faGoogle} className="w-5 h-5" />
+        </a>
         <a
           className="w-10 h-10 flex justify-center items-center"
           href="https://www.linkedin.com/in/michelle-yang-99134033a"

@@ -1,4 +1,6 @@
 import { DM_Sans, Geist, Geist_Mono, Merriweather } from 'next/font/google';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 import './globals.css';
 import Link from 'next/link';
 import Navigation from './components/Navigation';
@@ -29,6 +31,12 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: 'Michelle',
   description: 'Portfolio Website',
+  icons: {
+    icon: {
+      url: '/favicon.ico',
+      type: 'image/x-icon',
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -3,7 +3,7 @@ export default function DaewoongAcademy() {
       <div>
         {/* Project Summary */}
         <div className="flex flex-col md:flex-row bg-[#F4F4F3] px-20 py-32 w-full border-b border-b-black">
-            <h1 className="font-merriweather text-6xl md:text-7xl lg:text-8xl leading-[1.1em] tracking-[-0.05em] pb-10 font-extralight w-full md:w-1/2">Daewoong Academy</h1>
+            <h1 className="font-merriweather text-6xl md:text-7xl lg:text-8xl leading-[1.1em] tracking-[-0.05em] pb-10 font-extralight w-full md:w-1/2 pr-4">Daewoong Academy</h1>
             <div className="flex flex-col w-full md:w-1/2 font-dm-sans">
                 <p className="text-lg">Daewoong Academy is a nonprofit organization dedicated to making quality education accessible to all through innovative digital test-taking and analytics platforms. Focused on empowering students, Daewoong Academy offers comprehensive resources for SAT and AP Computer Science preparation, including multiple-choice and free-response questions designed to deepen understanding. Students can take full-length SAT exams and receive detailed analytics that highlight their strengths and pinpoint areas for improvement, helping them achieve their academic goals.</p>
                 <div className="grid grid-cols-2 py-10 gap-8">
