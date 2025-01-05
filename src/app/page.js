@@ -48,18 +48,18 @@ export default function Home() {
         </div>
 
         {/* Section 2 */}
-        <div className="flex flex-col md:flex-row bg-[rgb(255,255,255)] w-full border-b border-b-black h-[100vh]">
+        <div className="flex flex-col md:flex-row bg-[rgb(255,255,255)] w-full border-b border-b-black min-h-[100vh]">
           {/* Image Section - Left Half */}
-          <div className="w-full md:w-1/2 h-1/4 md:h-full">
+          <div className="w-full md:w-1/2 h-1/2 md:h-full">
             <img
               src="/mainSection2.jpg"
               alt="Desk"
               className="object-cover w-full h-full object-bottom"
             />
           </div>
-          
+
           {/* Content Section - Right Half */}
-          <div className="w-full md:w-1/2 h-full flex items-center justify-center">
+          <div className="w-full md:w-1/2 flex items-center justify-center block">
             <div className="px-20 py-12">
               <h2 className="font-merriweather text-2xl md:text-4xl lg:text-6xl leading-[1.1em] tracking-[-0.05em] font-extralight">
                 Work Experiences
@@ -71,7 +71,9 @@ export default function Home() {
                 >
                   Daewoong Academy
                 </Link>
-                <p className="font-dm-sans text-sm">Daewoong Academy is a nonprofit organization providing free access to digital test-taking platforms and analytics to support students' academic success. Offering resources for SAT and AP Computer Science preparation, the platform provides detailed post-test analytics to help students identify strengths and areas for improvement.</p>
+                <p className="font-dm-sans text-sm">
+                  Daewoong Academy is a nonprofit organization providing free access to digital test-taking platforms and analytics to support students' academic success. Offering resources for SAT and AP Computer Science preparation, the platform provides detailed post-test analytics to help students identify strengths and areas for improvement.
+                </p>
               </div>
               <div className="py-4">
                 <Link 
@@ -80,7 +82,9 @@ export default function Home() {
                 >
                   Palace
                 </Link>
-                <p className="font-dm-sans text-sm">Palace is a platform that connects property owners with approved managers seeking reservations for events such as weddings, corporate gatherings, and retreats. Property owners can list their available spaces, while managers can browse through the calendar and properties to request bookings. The platform streamlines the reservation process, ensuring seamless coordination between owners and managers for successful events.</p>
+                <p className="font-dm-sans text-sm">
+                  Palace is a platform that connects property owners with approved managers seeking reservations for events such as weddings, corporate gatherings, and retreats. Property owners can list their available spaces, while managers can browse through the calendar and properties to request bookings. The platform streamlines the reservation process, ensuring seamless coordination between owners and managers for successful events.
+                </p>
               </div>
             </div>
           </div>

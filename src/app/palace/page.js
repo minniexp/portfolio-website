@@ -2,7 +2,7 @@ export default function Palace() {
     return (
       <div>
         {/* Project Summary */}
-        <div className="flex flex-col md:flex-row bg-[#F4F4F3] px-20 py-32 w-full border-b border-b-black">
+        <div className="flex flex-col md:flex-row bg-[#F4F4F3] px-10 md:px-20 py-32 w-full border-b border-b-black">
             <h1 className="font-merriweather text-6xl md:text-7xl lg:text-8xl leading-[1.1em] tracking-[-0.05em] pb-10 font-extralight w-full md:w-1/2">Palace</h1>
             <div className="flex flex-col w-full md:w-1/2 font-dm-sans">
                 <p className="text-lg">Palace is an innovative platform designed to streamline the reservation process for events such as weddings, corporate gatherings, retreats, and more. Property owners can list their spaces on the platform, showcasing them to a network of approved managers who are looking to organize memorable events. Managers can browse available properties, check availability through an integrated calendar, and request reservations with ease. By facilitating seamless coordination between property owners and event managers, Palace ensures a hassle-free experience for hosting exceptional events.</p>

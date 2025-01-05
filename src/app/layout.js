@@ -37,8 +37,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${merriweather.variable} ${dmSans.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className="w-full h-24 px-20 flex justify-between items-center border-b border-b-black">
-          <Link href="/" className="font-merriweather text-2xl">
+        <nav className="w-full h-24 px-4 md:px-20 flex justify-between items-center border-b border-b-black">
+          <Link href="/" className="font-merriweather text-lg sm:text-2xl">
             michelleyang.dev
           </Link>
           <Navigation />
