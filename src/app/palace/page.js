@@ -27,6 +27,7 @@ export default function Palace() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/PalaceVideo1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -42,6 +43,7 @@ export default function Palace() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/PalaceVideo2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -61,6 +63,7 @@ export default function Palace() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/PalaceVideo3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -76,6 +79,7 @@ export default function Palace() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/PalaceVideo4.mp4" type="video/mp4" />
                     Your browser does not support the video tag.

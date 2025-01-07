@@ -27,6 +27,7 @@ export default function DaewoongAcademy() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/DaewoongVideo1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -46,6 +47,7 @@ export default function DaewoongAcademy() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/DaewoongVideo2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -61,6 +63,7 @@ export default function DaewoongAcademy() {
                     autoPlay
                     muted
                     loop
+                    playsInline
                 >
                     <source src="/DaewoongVideo3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
