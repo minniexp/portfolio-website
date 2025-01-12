@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import VideoWithLoader from './components/VideoWithLoader';
 
 export default function Home() {
   return (
@@ -27,17 +28,7 @@ export default function Home() {
 
             {/* Video Section */}
             <div className="flex justify-center items-center">
-              <div className="rounded-[50px] overflow-hidden w-72 h-96 lg:w-96 bg-[#FFD647] shadow-xl">
-                <video 
-                  className="w-full h-full object-cover object-[center_20%]"
-                  autoPlay
-                  muted
-                  loop
-                >
-                  <source src="/main1.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
+              <VideoWithLoader />
             </div>
           </div>
 
